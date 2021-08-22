@@ -9,50 +9,42 @@ const Manager = require("./lib/Manager");
 var id = 0;
 var teamArray = [];
 
-init = () => {
+init = async () => {
     console.log("🌼 TEAM PROFILE GENERATOR 🌼 \nFollow the prompts to create a new employee.");
-    return inquirer.prompt([
-
-    // CREATE EMPLOYEE //
-    {
-        type: "input",
-        name: "eName",
-        message: "What is the name of the new employee?",
-    },
-    {
-        type: "input",
-        name: "eID",
-        message: "Enter the employee's ID.",
-    },
-    {
-        type: "input",
-        name: "eMail",
-        message: "Enter the employee's email address.",
-    },
-    {
-        type: "checkbox",
-        name: "eRole",
-        message: "What is the role of the new employee?",
-        choices: ["Engineer", "Intern", "Manager"],
-    },
-
-    // if (response.role === "Engineer") {
-
-    // }
-
-    // else if (response.role === "Intern") {
-
-    // }
-
-    // else ()
-
-    // PUSHING RESULTS TO ARRAY //
-    ]).then((promptResults) => {
-        promptResults.role = "Employee";
-        const { name, id, email } = promptResults;
-        const newEmployee = new Employee (name, id, email);
-        emps.push(newEmployee); 
-    })
+    const promptResults = await inquirer.prompt([
+        // CREATE EMPLOYEE //
+        {
+            type: "input",
+            name: "eName",
+            message: "What is the name of the new employee?",
+        },
+        {
+            type: "input",
+            name: "eID",
+            message: "Enter the employee's ID.",
+        },
+        {
+            type: "input",
+            name: "eMail",
+            message: "Enter the employee's email address.",
+        },
+        {
+            type: "checkbox",
+            name: "eRole",
+            message: "What is the role of the new employee?",
+            choices: ["Engineer", "Intern", "Manager"],
+        },
+        // if (response.role === "Engineer") {
+        // }
+        // else if (response.role === "Intern") {
+        // }
+        // else ()
+        // PUSHING RESULTS TO ARRAY //
+    ]);
+    promptResults.role = "Employee";
+    const { name, id, email } = promptResults;
+    const newEmployee = new Employee(name, id, email);
+    emps.push(newEmployee);
 };
 
 // TO BE PROMPTED AFTER ROLE SELECTION? //
