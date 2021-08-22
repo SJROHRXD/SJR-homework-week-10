@@ -1,4 +1,5 @@
 // MODERN CONCURRENCY //
+// https://www.youtube.com/watch?v=NsQ2QIrQShU //
 
 // Concurrency is doing multiple tasks in a period of time
 // Generally order-independent
@@ -100,9 +101,9 @@ function getTotalFileSize(file1, file2, file3, callback) {
 
 // A promise is an object that represents what the value will be when an operation finishes. //
 
-readFile("config.json")
-    .then(...)
-    .catch(...);
+// //readFile("config.json")
+// //    .then(...)
+// //    .catch(...);
 
 // we can do some chaining
 
@@ -248,3 +249,6 @@ async function animate(element) {
 // if you pass an async into map will give you an array of promises
 // it looks synchronous, but remember you code has been paused / resumed
 // remember what you've changed re: vars and what will happen when resumed
+
+// CHROME, FIREFOX, NODE
+// BABEL for the rest of them
