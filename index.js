@@ -36,6 +36,16 @@ init = () => {
         choices: ["Engineer", "Intern", "Manager"],
     },
 
+    // if (response.role === "Engineer") {
+
+    // }
+
+    // else if (response.role === "Intern") {
+
+    // }
+
+    // else ()
+
     // PUSHING RESULTS TO ARRAY //
     ]).then((promptResults) => {
         promptResults.role = "Employee";
