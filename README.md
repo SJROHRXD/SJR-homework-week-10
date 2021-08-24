@@ -101,7 +101,7 @@ See Contact Info, please!
 
 ## Licensing 🧾
 
-[!license](https://img.shields.io/github/license/SJROHRXD/SJR-homework-week-10?color=hotpink&style=plastic)
+[![license](https://img.shields.io/github/license/SJROHRXD/SJR-homework-week-10?color=hotpink&style=plastic)]
 
 Copyright &copy; 2021
 
