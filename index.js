@@ -1,6 +1,5 @@
 // REQUIRED //
 const inquirer = require("inquirer");
-// const jest = require("jest");
 const fs = require("fs");
 const util = require("util");
 const html = require("./src/generatedHTML.js");
@@ -12,7 +11,6 @@ const Manager = require("./lib/Manager");
 
 // PROMISES for WRITING //
 const writeFileAsync = util.promisify(fs.writeFile);
-// const appendFileAsync = util.promisify(fs.appendFile);
 
 // ARRAYS GENERATED FOR ELLIES //
 var teamWrite = ``;
@@ -125,11 +123,9 @@ async function init() {
             teamWrite = teamWrite + html.makeEmpCards(teamArray[i]);
         }
 
-        let finalHTML = html.generatedHTML(teamWrite)
-
+        let finalHTML = html.generatedHTML(teamWrite);
         writeFileAsync("./dist/generatedHTML.html", finalHTML);
-
-        console.log(`TEAM PROFILE GENERATOR \nHTML Generated: generatedHTML.html`)
+        console.log(`TEAM PROFILE GENERATOR \nHTML Generated: generatedHTML.html`);
 
     } catch (err) {
         return console.log(err, `I broke it.`);
