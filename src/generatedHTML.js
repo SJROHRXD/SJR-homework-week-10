@@ -38,7 +38,8 @@ const generatedHTML = function (teamWrite) {
 
 
 <footer class="footer text-black-70">
-    <p id="foot" style="text-align: center; background-color: rgb(204, 240, 180);">Made with 🍔🍟🍦 - SJR, 2021.</p>
+    <p id="foot" style="text-align: center; background-color: rgb(204, 240, 180);">Made with 🍔🍟🍦 - SJR, 2021.<br>
+    This assignment was mean and I do NOT appreciate it.</p>
 </footer>
 </body>
 </html>`

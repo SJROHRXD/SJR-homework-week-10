@@ -6,7 +6,6 @@ const util = require("util");
 const html = require("./src/generatedHTML.js");
 
 // REQUIRED CLASSES //
-// const Employee = require("./lib/EmployeeClass");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
