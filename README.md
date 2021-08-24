@@ -91,9 +91,7 @@ YOUTUBE + GOOGLE, Inquirer, Jest, JavaScript, HTML, BootStrap / CSS
 
 ## Testing 🧷
 
-Tested with Jest!
-
-[See My Jest Notes](https://github.com/SJROHRXD/SJR-homework-week-10/blob/master/notes/999JestTestNotes.js)
+### Tested with Jest! [See My Jest Notes](https://github.com/SJROHRXD/SJR-homework-week-10/blob/master/notes/999JestTestNotes.js)
 
 Tested Classes using Jest:
 
