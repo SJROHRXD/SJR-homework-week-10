@@ -8,6 +8,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "inquirer": "^8.1.2",
     "jest": "^27.0.6"
   },
   "devDependencies": {},
@@ -15,5 +16,14 @@
     "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SJROHRXD/SJR-homework-week-10.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/SJROHRXD/SJR-homework-week-10/issues"
+  },
+  "homepage": "https://github.com/SJROHRXD/SJR-homework-week-10#readme"
 }
