@@ -79,9 +79,9 @@ Be sure to initialize! Start the prompts by running 'node index.js' from the ter
 
 Use this to satisfy the user story:
 
-             "AS A manager
-              I WANT to generate a webpage that displays my team's basic info
-              SO THAT I have quick access to their emails and GitHub profiles"
+      "AS A manager
+      I WANT to generate a webpage that displays my team's basic info
+      SO THAT I have quick access to their emails and GitHub profiles"
 
 
 ## Tech 🖥
@@ -91,7 +91,19 @@ YOUTUBE + GOOGLE, Inquirer, Jest, JavaScript, HTML, BootStrap / CSS
 
 ## Testing 🧷
 
-// TO BE UPDATED //
+Tested with Jest!
+
+[See My Jest Notes](https://github.com/SJROHRXD/SJR-homework-week-10/blob/master/notes/999JestTestNotes.js)
+
+Tested Classes using Jest:
+
+      not.toBe(undefined, null)
+
+      .toStrictEqual(`Class Property: Expected Value.`)
+
+      .toContain("A Value")
+
+<img src="https://raw.githubusercontent.com/SJROHRXD/SJR-homework-week-10/master/Assets/jesttestnorest.png">
 
 
 ## Contribution 🤝
