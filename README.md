@@ -7,10 +7,11 @@
 
 ## Video Demo 🌷
 
-// YOUTUBE LINK HERE //
+[Team Profile Generator - SJROHRXD](https://youtu.be/GOcSOpUHNxU)
 
 ## Screenshots 🌻
 
+<img src="https://raw.githubusercontent.com/SJROHRXD/SJR-homework-week-10/master/Assets/testjesttestlol.png">
 <img src="https://raw.githubusercontent.com/SJROHRXD/SJR-homework-week-10/master/Assets/testjesttestlol.png">
 
 
