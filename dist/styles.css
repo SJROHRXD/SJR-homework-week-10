@@ -1,10 +1,5 @@
 #foot {
-    text-align: center;
-    background-color: rgb(115, 136, 101);
-  }
-
-
-
-
-
-
+  text-align: center;
+  background-color: rgb(115, 136, 101);
+}
+/* not much going on in here as I did it all in-line when I realized it was broken */
