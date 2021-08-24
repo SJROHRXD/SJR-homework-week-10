@@ -12,7 +12,7 @@
 ## Screenshots 🌻
 
 <img src="https://raw.githubusercontent.com/SJROHRXD/SJR-homework-week-10/master/Assets/testjesttestlol.png">
-<img src="https://raw.githubusercontent.com/SJROHRXD/SJR-homework-week-10/master/Assets/testjesttestlol.png">
+<img src="https://raw.githubusercontent.com/SJROHRXD/SJR-homework-week-10/master/Assets/TEAMPROFILEfirstlook.png">
 
 
 ## Table of Contents
