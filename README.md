@@ -106,7 +106,7 @@ Tested Classes using Jest:
 
 ## Contribution 🤝
 
-See Contact Info, please!
+Fork if you desire! Feedback is greatly appreciated!
 
 
 ## Licensing 🧾
@@ -118,8 +118,6 @@ Copyright &copy; 2021
 
 
 ## Contact 🗨
-
-### For Questions:
 
 [SJROHRXD's GitHub](https://github.com/SJROHRXD)
 
