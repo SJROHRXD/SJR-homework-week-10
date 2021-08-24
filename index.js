@@ -69,6 +69,7 @@ async function prompt () {
             const engineer = new Engineer(response.eName, response.eID, response.eMail, roleSelected.putIn);
             // building our engineer with our responses
             teamArray.push(engineer);
+            console.log(teamArray);
             // pushing that new engineer to our teamArray
 
             } else if (response.eRole === "Intern") {
@@ -81,6 +82,7 @@ async function prompt () {
                 const intern = new Intern (response.eName, response.eID, response.eMail, roleSelected.putIn);
                 // building our intern with our responses
                 teamArray.push(intern);
+                console.log(teamArray);
                 // pushing that new intern to our teamArray
 
             } else if (response.eRole === "Manager") {
@@ -93,6 +95,7 @@ async function prompt () {
                 const manager = new Manager (response.eName, response.eID, response.eMail, roleSelected.putIn);
                 // building our manager with our responses
                 teamArray.push(manager);
+                console.log(teamArray);
                 // pushing that new manager to our teamArray
             }
         } catch (err) {
