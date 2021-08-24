@@ -97,7 +97,7 @@ Tested with Jest!
 
 Tested Classes using Jest:
 
-      not.toBe(undefined, null)
+      .not.toBe(undefined, null)
 
       .toStrictEqual(`Class Property: Expected Value.`)
 
